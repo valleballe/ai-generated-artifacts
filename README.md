@@ -4,7 +4,7 @@ https://user-images.githubusercontent.com/22293597/231271067-a53819bf-9cb4-49ec-
 
 
 ## Requirements
-* Access to Midjourney, Dall·E 2, or Stable Diffusion.
+* Midjourney, Dall·E 2, or Stable Diffusion.
 * Adobe Substance Sampler
 * Blender 2.5 or newer
 
