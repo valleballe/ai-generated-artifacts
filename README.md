@@ -1,1 +1,1 @@
-# ai-generated-artifacts
+# AI-generated Artifacts
