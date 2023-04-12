@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Danry"
+  given-names: "Valdemar"
+  orcid: "https://orcid.org/0000-0001-5225-0077"
+title: "AI-Generated Artifacts"
+version: 2.0.4
+date-released: 2023-4-11
+url: "https://github.com/valleballe/ai-generated-artifacts"
