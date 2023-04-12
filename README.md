@@ -6,7 +6,7 @@ https://user-images.githubusercontent.com/22293597/231271067-a53819bf-9cb4-49ec-
 ## Requirements
 * Midjourney, Dall·E 2, or Stable Diffusion.
 * Adobe Substance Sampler
-* Blender 2.5 or newer
+* Blender 3.4 or newer
 
 ## Limitations
 * Can only generate mirrorable objects. Complex objects like chairs are not recommended.
@@ -25,6 +25,8 @@ Going from text to 3d model requires the following steps: (1) Generate image fro
 
 3. Open Substance Sampler 3D and press "Create new". Drag and drop your generated image from step 1 into the program. Choose Image to Material (AI powered). After the process is done, fiddle around with the settings really get the features that you want to be popping. You can play with the displacement height scale in the bottom of the UI. When done, press the "share" button on the right side of the UI and "export as". Once exported you will find the height material in the exported folder.
 
-![vase-textures](https://user-images.githubusercontent.com/22293597/231289704-13f97b0a-fb13-4c14-8683-5630f64c1d16.jpg)
+<img width="1512" alt="Skærmbillede 2023-04-11 kl  5 17 02 PM" src="https://user-images.githubusercontent.com/22293597/231329509-261a81f9-b946-4424-aabc-3f6f18cc95dd.png">
 
-4. Open Blender and create a new project.
+4. Open Blender and create a new project. Then go to "file" > "import" > "Wavefront (obj)" and import your mesh from step 2. Next, select the imported object and go to the blue wrench icon on the right. Here, press "Add Modifier" and select "Subdivision Surface". Add another modifier called "Displace". When both modifiers are added, it is important that the displace modifier is beneith the subdivision surface modifier. Next, change the "Coordinates" setting from "Local" to "UV" and the "Direction" to "Normal". Finally, adjust the strength to a level that you are satisfied with. Polish the model as desired --- and you're done! 
+
+I hope the repository was helpful. Please, remember to cite this repo and send me an email if you use this process! I would love to see what you make.
